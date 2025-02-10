@@ -167,18 +167,19 @@ blockquote span {
     font-weight: 600;
 }
 
-.cta-button {
-    padding: 25px 50px;
-    /* outline: 3px solid red; */
-}
-
 div.cta-button button {
     background-color: #3882f6;
     padding: 5px 30px;
     color: white;
     border: 2px solid white;
     border-radius: 8px;
+    outline: 1px dotted pink;
 }
+
+div.cta-button button:hover {
+    background-color: #68a0f8;
+    cursor: pointer;
+  }
 
 footer {
     display: flex;
